@@ -1,0 +1,51 @@
+git basic command
+
+git init ---> to create Git repository 
+
+git add . ---> to stage file from local
+
+git commit -m "message" ---> commit file from local
+
+git remote add origin (ssh)  ---> create a remote branch for pushing the code
+
+git push -u origin master ---> push the code to github
+
+--------------------------------------------------------------------------------------------------------
+git config --global user.name "name" ---> change your name
+
+git config --global user.email "email id" ---> change your email
+
+--------------------------------------------------------------------------------------------------------
+git pull ---> to pull the code from Github
+
+git log ---> to see who had made changes
+
+--------------------------------------------------------------------------------------------------------
+git diff (file name) ---> to check the changes made locally (scanning)
+
+--------------------------------------------------------------------------------------------------------
+creating branches
+git branch ---> to see which branch are you working in
+
+git branch (enter branch name) ---> create sub branch
+
+git checkout (branch name) ---> to switch to the branch
+
+note: while pushing the code to sub branch command: git push origin (branch name)
+
+--------------------------------------------------------------------------------------------------------
+merge to main branch
+
+git checkout master ---> switch to main branch
+
+git merge (branch name) ---> branc name gets mereged to main branch
+
+--------------------------------------------------------------------------------------------------------
+delete branch
+
+git branch -d (branch name) ---> deletes branch from local
+
+git push origin --delete (brach name)  ---> deletes branch from git hub
+
+-------------------------------------------------------------------------------------------------------- 
+
