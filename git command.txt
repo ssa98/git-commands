@@ -24,7 +24,7 @@ git log ---> to see who had made changes
 git diff (file name) ---> to check the changes made locally (scanning)
 
 --------------------------------------------------------------------------------------------------------
-creating branches
+Creating Branches
 git branch ---> to see which branch are you working in
 
 git branch (enter branch name) ---> create sub branch
